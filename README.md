@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 ### 🟩 Моя активность в GitHub
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://githubusercontent.com">
-  <source media="(prefers-color-scheme: light)" srcset="https://githubusercontent.com">
-  <img alt="GitHub Сontribution Snake" src="https://githubusercontent.com">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake.svg">
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake.svg">
 </picture>
+
 
