@@ -1,38 +1,28 @@
-name: Generate Snake
+name: Generate snake
 
 on:
-  # Запуск каждые 12 часов
   schedule:
-    - cron: "0 */12 * * *"
-  
-  # Позволяет запустить генерацию вручную в любое время
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  
-  # Запуск при каждом пуше в ветку main
   push:
     branches:
-    - main
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
     steps:
-      # Генерирует змейку на основе вашего графика вкладов
-      - name: generate-snake-game-from-github-contribution-grid
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # Деплоит сгенерированные файлы в ветку output, чтобы они были доступны по ссылке
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
