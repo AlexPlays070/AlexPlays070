@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-### я не знаю что тут писать но посмотрите на змейку амнанамочку
+### я не знаю что тут писать но посмотрите на змейку амнамнамочку
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake.svg">
