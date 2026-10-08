@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 <!--
 **AlexPlays070/AlexPlays070** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-### 🟩 Моя активность в GitHub
+### я не знаю что тут писать но посмотрите на змейку амнанамочку
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlexPlays070/AlexPlays070/output/github-snake.svg">
